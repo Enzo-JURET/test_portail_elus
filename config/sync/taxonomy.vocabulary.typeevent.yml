@@ -1,0 +1,8 @@
+uuid: c397f5e6-0e2b-4b19-91d2-0a9542104386
+langcode: fr
+status: true
+dependencies: {  }
+name: TypeEvent
+vid: typeevent
+description: 'Catégorie d''évènement pour le calendrier (fullcalendar_view)'
+weight: 0

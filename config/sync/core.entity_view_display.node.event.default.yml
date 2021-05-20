@@ -1,0 +1,74 @@
+uuid: f45710e2-ecae-4775-aea0-5dbc95264e2b
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.node.event.field_date_debut
+    - field.field.node.event.field_date_fin
+    - field.field.node.event.field_descriptif
+    - field.field.node.event.field_documents
+    - field.field.node.event.field_lieux
+    - field.field.node.event.field_typeevent
+    - node.type.event
+  module:
+    - datetime
+    - file
+    - text
+    - user
+id: node.event.default
+targetEntityType: node
+bundle: event
+mode: default
+content:
+  field_date_debut:
+    weight: 1
+    label: inline
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_date_fin:
+    weight: 2
+    label: inline
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_descriptif:
+    weight: 4
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_documents:
+    weight: 5
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    type: file_default
+    region: content
+  field_lieux:
+    weight: 6
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_typeevent:
+    weight: 0
+    label: inline
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+hidden:
+  langcode: true
+  links: true

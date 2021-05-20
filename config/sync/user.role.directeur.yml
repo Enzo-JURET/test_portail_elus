@@ -1,0 +1,9 @@
+uuid: cae9171a-d5cd-46ad-81f7-4a5a0897d37b
+langcode: fr
+status: true
+dependencies: {  }
+id: directeur
+label: Directeur
+weight: 4
+is_admin: null
+permissions: {  }

@@ -1,0 +1,29 @@
+uuid: 8102fa8b-1c01-4033-815d-167a15233f53
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_lieux
+    - node.type.event
+    - taxonomy.vocabulary.lieux
+id: node.event.field_lieux
+field_name: field_lieux
+entity_type: node
+bundle: event
+label: Lieux
+description: 'Les lieux sont les lieux de rendez-vous de l''évènement disponible.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      lieux: lieux
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

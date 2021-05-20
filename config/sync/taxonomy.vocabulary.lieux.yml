@@ -1,0 +1,8 @@
+uuid: 13ae7298-9e1f-46e6-89f7-8ea84f303726
+langcode: fr
+status: true
+dependencies: {  }
+name: Lieux
+vid: lieux
+description: 'Les lieux sont les lieux de rendez-vous possibles des évènements.'
+weight: 0

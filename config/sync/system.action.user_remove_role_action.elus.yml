@@ -1,0 +1,14 @@
+uuid: 42cc1be6-9bcc-48c3-8bff-134f9adc6351
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.elus
+  module:
+    - user
+id: user_remove_role_action.elus
+label: 'Enlever le rôle Elus des utilisateurs sélectionnés'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: elus

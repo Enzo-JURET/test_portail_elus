@@ -1,0 +1,14 @@
+uuid: 442592a5-a812-4db4-93bf-531f4c4d6287
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.elus
+  module:
+    - user
+id: user_add_role_action.elus
+label: 'Ajouter le rôle Elus aux utilisateurs sélectionnés'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: elus

@@ -1,0 +1,14 @@
+uuid: 52054fef-9f1d-4f2d-99bd-bb14eda0d674
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.directeur
+  module:
+    - user
+id: user_remove_role_action.directeur
+label: 'Enlever le rôle Directeur des utilisateurs sélectionnés'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: directeur

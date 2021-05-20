@@ -1,0 +1,29 @@
+uuid: 133100a8-5416-4780-b602-2c90019daf5a
+langcode: fr
+status: true
+dependencies:
+  config:
+    - views.view.aggregator_rss_feed
+  module:
+    - system
+    - views
+  theme:
+    - bootstrap
+id: views_block__aggregator_rss_feed_block_1
+theme: bootstrap
+region: content
+weight: 0
+provider: null
+plugin: 'views_block:aggregator_rss_feed-block_1'
+settings:
+  id: 'views_block:aggregator_rss_feed-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: /rss-test
+    negate: false

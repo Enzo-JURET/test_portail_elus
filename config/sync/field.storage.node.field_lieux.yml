@@ -1,0 +1,20 @@
+uuid: 1b297b77-6982-42af-80ac-ab1bb78b567f
+langcode: fr
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_lieux
+field_name: field_lieux
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

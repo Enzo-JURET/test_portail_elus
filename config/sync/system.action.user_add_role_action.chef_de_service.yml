@@ -1,0 +1,14 @@
+uuid: e8a12a8f-617e-457e-88ea-dc11bd0afd44
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.chef_de_service
+  module:
+    - user
+id: user_add_role_action.chef_de_service
+label: 'Ajouter le rôle Chef de service aux utilisateurs sélectionnés'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: chef_de_service

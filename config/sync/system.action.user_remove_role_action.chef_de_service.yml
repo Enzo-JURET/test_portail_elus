@@ -1,0 +1,14 @@
+uuid: 87e21d08-35e6-4e60-8633-af765af68748
+langcode: fr
+status: true
+dependencies:
+  config:
+    - user.role.chef_de_service
+  module:
+    - user
+id: user_remove_role_action.chef_de_service
+label: 'Enlever le rôle Chef de service des utilisateurs sélectionnés'
+type: user
+plugin: user_remove_role_action
+configuration:
+  rid: chef_de_service

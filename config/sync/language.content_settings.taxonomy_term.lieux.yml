@@ -1,0 +1,11 @@
+uuid: 58607203-c196-4d1e-a7e5-32188f054b48
+langcode: fr
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.lieux
+id: taxonomy_term.lieux
+target_entity_type_id: taxonomy_term
+target_bundle: lieux
+default_langcode: site_default
+language_alterable: false

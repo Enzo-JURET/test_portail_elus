@@ -1,0 +1,29 @@
+uuid: c8cd8254-7ad2-4a01-8c98-c0d05c6e64b9
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_typeevent
+    - node.type.event
+    - taxonomy.vocabulary.typeevent
+id: node.event.field_typeevent
+field_name: field_typeevent
+entity_type: node
+bundle: event
+label: 'Type d''évènement'
+description: 'Le type d''évènement permet de catégoriser l''évènement créé, cela permettra au calendrier d''afficher les évènements avec une couleur selon leurs types.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      typeevent: typeevent
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

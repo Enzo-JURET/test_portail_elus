@@ -1,0 +1,9 @@
+uuid: 5cac74ad-5b62-401f-bc18-857b6c50cd13
+langcode: fr
+status: true
+dependencies: {  }
+id: chef_de_service
+label: 'Chef de service'
+weight: 5
+is_admin: null
+permissions: {  }
